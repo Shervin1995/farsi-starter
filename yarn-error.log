@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Microsoft\jdk-17.0.8.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-8u302-b08\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\Shervin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\xampp\php;C:\Program Files (x86)\UnxUtils\usr\local\wbin;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\nodejs\;C:\Users\Shervin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Shervin\AppData\Local\Programs\Python\Python312\;C:\Users\Shervin\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Shervin\AppData\Local\Programs\Python\Python38\;C:\Users\Shervin\AppData\Local\Microsoft\WindowsApps;C:\Users\Shervin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\ffmpeg\bin;C:\Users\Shervin\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\Shervin\AppData\Local\Android\Sdk\platform-tools;C:\Users\Shervin\AppData\Local\Yarn\bin;C:\Users\Shervin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;C:\nwjs;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Nuget;C:\Users\Shervin\.dotnet\tools;C:\terraform;C:\Users\Shervin\AppData\Roaming\npm;C:\Users\Shervin\AppData\Roaming\Python\Python312\Scripts;;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.1\bin;
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  20.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+
+npm manifest: 
+  {
+    "name": "d3js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server/app.js",
+    "scripts": {
+      "start": "next dev",
+      "build": "next build"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "jquery": "^3.6.4",
+      "jsonwebtoken": "8.5.1",
+      "next": "13.1.5",
+      "pg": "^8.8.0",
+      "pg-hstore": "^2.3.4",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "sequelize": "^6.25.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

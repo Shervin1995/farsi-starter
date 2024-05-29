@@ -1,0 +1,24 @@
+{
+  "name": "farsi-starter",
+  "version": "1.0.0",
+  "description": "Developed by Shervin khanim97@gmail.com",
+  "main": "",
+  "scripts": {
+    "start": "next dev",
+    "build": "next build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "jquery": "^3.6.4",
+    "jsonwebtoken": "8.5.1",
+    "next": "13.1.5",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sequelize": "^6.25.3"
+  }
+}
