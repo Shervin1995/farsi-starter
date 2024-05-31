@@ -15,3 +15,24 @@
 
  
 
+```
+RPASS_SECRET=
+JWT_SECRET=
+CHART_SECRET=
+SENDINBLUE_KEY=
+ZARINPAL_MERCHANT=
+
+
+# liara 
+# DOMAIN=https://shahrvand22.ir
+# PSQL=
+
+FOOTERTITLE=shahrvand22.ir
+FOOTER=https://shahrvand22.ir
+TITLE='شهروند 22'
+
+# local 
+DOMAIN=http://localhost:3000
+PSQL=
+NODE_ENV=
+```
